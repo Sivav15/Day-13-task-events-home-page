@@ -1,0 +1,222 @@
+* {
+    padding: 0;
+    margin: 0;
+
+   
+}
+
+h2 {
+    border: 2px solid black;
+    margin: 12px;
+    padding: 10px;
+
+
+}
+
+h2,
+h3 {
+    text-align: center;
+}
+
+h3 {
+    padding: 5px;
+
+}
+
+p {
+    padding: 5px;
+}
+
+button {
+    padding: 5px;
+    margin-top: 21px;
+    margin-left: 10px;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+main {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5px;
+    padding: 4px;
+    justify-content: space-between;
+}
+
+
+section {
+
+    border: 2px solid black;
+    margin: 3px;
+}
+
+.main_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding: 10px;
+
+}
+
+.e_image {
+    border: 2px solid black;
+
+}
+
+
+.img {
+    margin: 8px;
+    width: 8rem;
+    border-radius: 100%;
+}
+
+@media screen and (min-width:320px) and (max-width:575px) {
+    main {
+
+        justify-content: center;
+    }
+
+}
+
+@media screen and (min-width:320px) and (max-width:425px) {
+    section {
+        margin-top: 15px;
+    }
+
+}
+
+@media screen and (min-width:334px) and (max-width:575px) {
+    .main_div {
+
+
+        padding: 15px;
+        margin: 20px;
+
+    }
+
+}
+
+@media screen and (min-width:425px) and (max-width:852px) {
+    main {
+
+        justify-content: center;
+    }
+
+    .main_div {
+
+        padding: 15px;
+        margin: 20px;
+
+    }
+
+    section {
+
+        border: 2px solid black;
+        margin: 15px;
+    }
+
+}
+
+
+@media screen and (min-width:1255px) and (max-width:1756px) {
+    body {
+        width: 90%;
+        margin: 0 auto;
+
+    }
+
+}
+
+@media screen and (min-width:1757px) and (max-width:2000px) {
+    body {
+        width: 80%;
+        margin: 0 auto;
+
+    }
+
+    main {
+
+        justify-content: center;
+    }
+
+}
+
+@media screen and (min-width:2001px) and (max-width:2560px) {
+    body {
+        width: 70%;
+        margin: 0 auto;
+
+    }
+
+    .main_div {
+
+        padding: 15px;
+        margin: 20px;
+
+    }
+
+    section {
+        margin: 30px;
+
+
+    }
+
+    h3 {
+        margin: 15px;
+    }
+
+}
+
+@media screen and (min-width:853px) and (max-width:1128px) {
+    body {
+        width: 100%;
+        margin: 0 auto;
+
+    }
+
+    main {
+
+        justify-content: center;
+    }
+
+    section {
+        margin: 20px;
+    }
+
+}
+
+@media screen and (min-width:1410px) and (max-width:1575px) {
+    main {
+
+        justify-content: center;
+    }
+
+    section {
+        margin: 20px;
+    }
+
+}
+
+@media screen and (min-width:952px) and (max-width:1129px) {
+
+
+    section {
+        margin: 5px;
+    }
+
+    .main_div {
+
+        padding: 0px;
+        margin: 10px;
+
+    }
+
+}
